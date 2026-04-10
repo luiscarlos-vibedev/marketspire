@@ -174,6 +174,8 @@ export default function Hero() {
         <img
           src="https://i.imgur.com/i3DW9B4.png"
           alt="Marketspire hero background"
+          width={1920}
+          height={1080}
           fetchPriority="high"
           loading="eager"
           className="absolute inset-0 w-full h-full object-cover opacity-60"

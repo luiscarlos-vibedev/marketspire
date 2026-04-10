@@ -83,6 +83,8 @@ export default function WhyUs() {
               <img
                 src="https://cdn-icons-png.flaticon.com/128/1384/1384023.png"
                 alt="WhatsApp"
+                width={24}
+                height={24}
                 className="w-6 h-6 object-contain brightness-0 invert"
                 referrerPolicy="no-referrer"
               />

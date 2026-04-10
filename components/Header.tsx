@@ -54,8 +54,11 @@ export default function Header({ onNavigate }: HeaderProps) {
             <img
               src="https://i.imgur.com/ouANJf0.png"
               alt="MarketSpire Logo"
+              width={120}
+              height={64}
               className="h-16 w-auto object-contain"
               referrerPolicy="no-referrer"
+              loading="eager"
             />
           </a>
         </div>
@@ -93,6 +96,8 @@ export default function Header({ onNavigate }: HeaderProps) {
             <img
               src="https://cdn-icons-png.flaticon.com/128/1384/1384023.png"
               alt="WhatsApp"
+              width={28}
+              height={28}
               className="w-7 h-7 object-contain brightness-0 invert"
               referrerPolicy="no-referrer"
             />
@@ -149,6 +154,8 @@ export default function Header({ onNavigate }: HeaderProps) {
                   <img
                     src="https://cdn-icons-png.flaticon.com/128/1384/1384023.png"
                     alt="WhatsApp"
+                    width={24}
+                    height={24}
                     className="w-6 h-6 object-contain brightness-0 invert"
                     referrerPolicy="no-referrer"
                   />
