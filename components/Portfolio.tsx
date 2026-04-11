@@ -4,75 +4,63 @@ import { Sparkles, ExternalLink, MessageCircle } from "lucide-react";
 const projects = [
   {
     title: "Morgana Nutri",
-    image:
-      "https://mmcriativeagencia.com/wp-content/uploads/2025/06/screencapture-morgananutri-2025-06-20-19_30_01-1.png",
+    image: "/portfolio/morgananutri.webp",
     url: "https://morgananutri.com/",
   },
   {
     title: "Anastasia Estética",
-    image:
-      "https://mmcriativeagencia.com/wp-content/uploads/2024/05/sites-ds-1.png",
+    image: "/portfolio/anastasiaestetica.webp",
     url: "https://anastasiaestetica.com.br/",
   },
   {
     title: "Tráfego Supremo",
-    image:
-      "https://mmcriativeagencia.com/wp-content/uploads/2024/05/sites-ds-4.png",
+    image: "/portfolio/trafegosupremo.jpg",
     url: "https://trafegosupremo.com.br/",
   },
   {
     title: "Tecudi",
-    image:
-      "https://mmcriativeagencia.com/wp-content/uploads/2024/05/sites-ds-3.png",
+    image: "/portfolio/tecudi.webp",
     url: "https://tecudi.com/",
   },
   {
     title: "Helio Psi",
-    image:
-      "https://mmcriativeagencia.com/wp-content/uploads/2024/07/helio-psi.png",
-    url: "http://heliopsi.com/",
+    image: "/portfolio/heliopsi.webp",
+    url: "https://heliopsi.com/",
   },
   {
     title: "Modas Glow",
-    image:
-      "https://mmcriativeagencia.com/wp-content/uploads/2024/07/modasglow.png",
-    url: "http://modasglow.com/",
+    image: "/portfolio/modasglow.webp",
+    url: "https://modasglow.com/",
   },
   {
     title: "Curso Nail Pro",
-    image:
-      "https://mmcriativeagencia.com/wp-content/uploads/2024/05/sites-dssites-7.png",
+    image: "/portfolio/cursonailpro.webp",
     url: "https://cursonailpro.com.br/",
   },
   {
     title: "Zeus Advogados",
-    image:
-      "https://mmcriativeagencia.com/wp-content/uploads/2024/05/sites-ds-5.png",
+    image: "/portfolio/zeusadvogados.webp",
     url: "https://zeusadvogados.com.br/",
   },
   {
     title: "Amorel Joias",
-    image:
-      "https://mmcriativeagencia.com/wp-content/uploads/2024/05/sites-dssites-3.png",
+    image: "/portfolio/amoreljoias.webp",
     url: "https://amoreljoias.com.br/",
   },
   {
-    title: "Lemon Shopp",
-    image:
-      "https://mmcriativeagencia.com/wp-content/uploads/2024/05/sites-dssites-9.png",
-    url: "https://lemonshopp.com/",
-  },
-  {
     title: "Portal UDI",
-    image:
-      "https://mmcriativeagencia.com/wp-content/uploads/2024/05/sites-dssites-11.png",
+    image: "/portfolio/portaludi.webp",
     url: "https://portaludi.com.br/",
   },
   {
-    title: "Ky Delícia",
-    image:
-      "https://mmcriativeagencia.com/wp-content/uploads/2024/05/sites-dssites-12.png",
-    url: "https://kydelicia.com.br/",
+    title: "Fina Estampa Fashion",
+    image: "/portfolio/finaestampafashion.webp",
+    url: "https://finaestampafashion.com",
+  },
+  {
+    title: "Dra. Larissa Tavares",
+    image: "/portfolio/dralarissa.webp",
+    url: "https://sitedralarissa.vercel.app/",
   },
 ];
 

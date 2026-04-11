@@ -92,8 +92,7 @@ function ParticleTeia() {
       canvas.height = h;
       
       particles = [];
-      // Aumentamos para 220 partículas para uma distribuição mais densa e uniforme
-      for (let i = 0; i < 220; i++) {
+      for (let i = 0; i < 80; i++) {
         particles.push(new Particle(w, h));
       }
     };
@@ -172,7 +171,7 @@ export default function Hero() {
       {/* 2. Imagem de Fundo e Overlay */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         <img
-          src="https://i.imgur.com/i3DW9B4.png"
+          src="/hero-background.webp"
           alt="Marketspire hero background"
           width={1920}
           height={1080}
