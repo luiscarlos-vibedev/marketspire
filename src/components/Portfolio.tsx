@@ -109,6 +109,7 @@ export default function Portfolio() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary hover:text-primary/80 flex items-center gap-1 font-semibold text-sm uppercase tracking-wider"
+                  aria-label={`Ver Projeto - ${project.title}`}
                 >
                   Ver Projeto
                   <ExternalLink size={14} />

@@ -55,6 +55,8 @@ export default function Header({ onNavigate }: HeaderProps) {
               src="/logo-marketspire.webp"
               alt="MarketSpire Logo"
               className="h-16 w-auto object-contain"
+              width={112}
+              height={64}
               loading="lazy"
               referrerPolicy="no-referrer"
             />

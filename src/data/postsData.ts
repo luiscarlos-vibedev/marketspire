@@ -34,8 +34,7 @@ export const postsData: Post[] = [
       "A Importância de um Site para Empresas na Era Digital: Uma Reflexão sobre a Citação de Bill Gates",
     excerpt:
       "Em um mundo cada vez mais conectado, a presença online se tornou crucial para o sucesso de qualquer negócio. Entenda por que Bill Gates estava certo ao dizer que se você não está na internet, está fora do jogo.",
-    image:
-      "https://mmcriativeagencia.com/wp-content/uploads/2024/05/Nao-ha-limites.png",
+    image: "/portfolio/billgates.webp",
     content: `
       <p>Em um mundo cada vez mais conectado, a presença online se tornou crucial para o sucesso de qualquer negócio. A frase do visionário Bill Gates, <strong>“Se seu negócio não está na internet, então seu negócio estará fora de operação”</strong>, resume essa realidade com clareza e perspicácia. Na MarketSpire, transformamos essa visão em resultados tangíveis para nossos parceiros.</p>
 
