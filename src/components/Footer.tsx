@@ -8,7 +8,12 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-2xl font-bold font-montserrat text-primary mb-4">Marketspire</h3>
+            <img 
+              src="/logo-marketspire.webp" 
+              alt="Marketspire" 
+              className="h-16 w-auto mb-4" 
+              loading="lazy"
+            />
             <p className="text-gray-400 mb-6 max-w-sm">
               Especialistas em criação de sites, E-commerces e Landing Pages de alta performance. Transformamos visitantes em clientes.
             </p>
