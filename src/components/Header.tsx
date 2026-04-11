@@ -52,9 +52,10 @@ export default function Header({ onNavigate }: HeaderProps) {
             className="flex items-center gap-2"
           >
             <img
-              src="https://i.imgur.com/ouANJf0.png"
+              src="/logo-marketspire.webp"
               alt="MarketSpire Logo"
               className="h-16 w-auto object-contain"
+              loading="lazy"
               referrerPolicy="no-referrer"
             />
           </a>

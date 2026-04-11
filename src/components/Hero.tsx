@@ -161,7 +161,7 @@ export default function Hero() {
       <div 
         className="absolute inset-0 z-0 pointer-events-none"
         style={{
-          backgroundImage: 'url(https://i.imgur.com/i3DW9B4.png)',
+          backgroundImage: 'url(/hero-background.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',

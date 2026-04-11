@@ -4,7 +4,7 @@ import { Sparkles, ExternalLink, MessageCircle } from "lucide-react";
 const projects = [
   {
     title: "Morgana Nutri",
-    image: "/portfolio/morgananutri.jpg",
+    image: "/portfolio/morgananutri.webp",
     url: "https://morgananutri.com/",
   },
   {
