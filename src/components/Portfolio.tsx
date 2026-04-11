@@ -93,11 +93,12 @@ export default function Portfolio() {
               transition={{ delay: index * 0.05 }}
               className="group relative bg-gray-100 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all"
             >
-              <div className="aspect-video overflow-hidden">
+              <div className="aspect-video overflow-hidden bg-gray-200">
                 <img
                   src={project.image}
                   alt={project.title}
                   className="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500"
+                  loading="lazy"
                   referrerPolicy="no-referrer"
                 />
               </div>
