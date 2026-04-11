@@ -2,10 +2,20 @@ import { motion } from "motion/react";
 import { Sparkles, ExternalLink, MessageCircle } from "lucide-react";
 
 const projects = [
-  {
+{
     title: "Morgana Nutri",
     image: "/portfolio/morgananutri.webp",
     url: "https://morgananutri.com/",
+  },
+  {
+    title: "Anastasia Estética",
+    image: "/portfolio/anastasiaestetica.webp",
+    url: "https://anastasiaestetica.com.br/",
+  },
+  {
+    title: "Sanys Pet",
+    image: "/portfolio/sanyspet.webp",
+    url: "https://sanyspet.com.br/",
   },
   {
     title: "Anastasia Estética",
