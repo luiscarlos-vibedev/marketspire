@@ -12,20 +12,10 @@ const projects = [
     image: "/portfolio/anastasiaestetica.webp",
     url: "https://anastasiaestetica.com.br/",
   },
-  {
+{
     title: "Sanys Pet",
     image: "/portfolio/sanyspet.webp",
     url: "https://sanyspet.com.br/",
-  },
-  {
-    title: "Anastasia Estética",
-    image: "/portfolio/anastasiaestetica.webp",
-    url: "https://anastasiaestetica.com.br/",
-  },
-  {
-    title: "Tráfego Supremo",
-    image: "/portfolio/trafegosupremo.jpg",
-    url: "https://trafegosupremo.com.br/",
   },
   {
     title: "Tecudi",
@@ -65,7 +55,7 @@ const projects = [
   {
     title: "Dra Larissa Tavares",
     image: "/portfolio/dralarissa.webp",
-    url: "https://dralarissatavares.com/",
+    url: "https://sitedralarissa.vercel.app/",
   },
   {
     title: "Fina Estampa Fashion",
