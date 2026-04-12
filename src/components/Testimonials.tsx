@@ -83,7 +83,7 @@ export default function Testimonials() {
                 <img
                   src={review.image}
                   alt={review.name}
-                  className="w-16 h-16 rounded-full object-cover shadow-sm"
+                  className="w-12 h-12 rounded-full object-cover shadow-sm"
                 />
                 <div>
                   <h3 className="font-bold text-[#050029]">{review.name}</h3>
