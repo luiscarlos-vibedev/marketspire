@@ -6,43 +6,37 @@ const reviews = [
     name: "Aline Morais",
     text: "Não tenho dúvida de que fiz a melhor escolha. Com tanta opção no mercado, bastou comparar o trabalho e o atendimento da MarketSpire pra encontrar exatamente o que eu procurava, que era qualidade e preço justo.",
     rating: 5,
-    image:
-      "https://lh3.googleusercontent.com/a-/ALV-UjXeVaxBQEnjrRS0wuHtCXkbHQssRQMtdlT-VmC2TqmnnCMB4zgvZQ=w40-h40-c-rp-mo-br100",
+    image: "/portfolio/Aline Morais.webp",
   },
   {
     name: "Marcelo Hayeck",
     text: "Luis é um ótimo profissional e impecável na execução do trabalho! Recomendo!",
     rating: 5,
-    image:
-      "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZW1wcmVzYXJpb3xlbnwwfDF8MHx8fDA%3D",
+    image: "/portfolio/Marcelo Hayeck.webp",
   },
   {
     name: "Giselda Ribeiro",
     text: "Eu amei o meu site, profissional e dentro do prazo! Indico muito, excelente profissionais! Obrigada!",
     rating: 5,
-    image:
-      "https://lh3.googleusercontent.com/a/ACg8ocJGXPpgltSgSNMVuVimBELrFBHT-k1eYY36sGFXeoIjBr6ObQ=w40-h40-c-rp-mo-br100",
+    image: "/portfolio/Giselda Ribeiro.webp",
   },
   {
     name: "Maria Oliveira",
     text: "Muito profissional 👏🏼👏🏼 site ficou incrível, o design ficou lindo e harmônicos, sem falar que consegui ficar em primeira no google!",
     rating: 5,
-    image:
-      "https://lh3.googleusercontent.com/a-/ALV-UjXMLyP9QOggX_dsyaFRdEp0e3LEYn4yG85D5kBwP3dXy4Do4H-x=w40-h40-c-rp-mo-br100",
+    image: "/portfolio/Maria Oliveira.webp",
   },
   {
     name: "Luana Almeida",
     text: "Tive a sorte de encontrar a MarketSpire! Desde o primeiro contato, o atendimento foi excepcional, me guiando em cada etapa da criação dos meus dois sites.",
     rating: 5,
-    image:
-      "https://lh3.googleusercontent.com/a-/ALV-UjW6NchkZ9NwCNFj8Gxncj3FcEKGmh3xAA11VXneqRqmZOYOt9s=w40-h40-c-rp-mo-br100",
+    image: "/portfolio/Luana Almeida.webp",
   },
   {
     name: "Pedro Santos",
     text: "Excelente profissional, ótima dedicação e atendimento ao cliente, entregou o projeto na data prevista.",
     rating: 5,
-    image:
-      "https://lh3.googleusercontent.com/a-/ALV-UjUEkayfGSycd2_h_xwCfBSNfuJjxpvDQEc_Cf84XL20cDbBXoA=w40-h40-c-rp-mo-br100",
+    image: "/portfolio/Pedro Santos.webp",
   },
 ];
 
@@ -89,8 +83,7 @@ export default function Testimonials() {
                 <img
                   src={review.image}
                   alt={review.name}
-                  className="w-12 h-12 rounded-full object-cover border-2 border-primary/20"
-                  referrerPolicy="no-referrer"
+                  className="w-16 h-16 rounded-full object-cover shadow-sm"
                 />
                 <div>
                   <h3 className="font-bold text-[#050029]">{review.name}</h3>
