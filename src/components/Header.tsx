@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { Menu, X, Instagram, MessageCircle, Music2 } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 interface HeaderProps {
   onNavigate?: (href: string) => void;
@@ -19,11 +19,9 @@ export default function Header({ onNavigate }: HeaderProps) {
   }, []);
 
   const navLinks = [
-    { name: "Início", href: "#inicio" },
-    { name: "Nossas Soluções", href: "#solucoes" },
-    { name: "Sobre Nós", href: "#sobrenos" },
+    { name: "Serviços", href: "#solucoes" },
     { name: "Portfólio", href: "#portfolio" },
-    { name: "FAQ", href: "#faq" },
+    { name: "Blog", href: "#blog" },
     { name: "Contato", href: "#contato" },
   ];
 
@@ -54,9 +52,9 @@ export default function Header({ onNavigate }: HeaderProps) {
             <img
               src="/logo-marketspire.webp"
               alt="MarketSpire Logo"
-              className="h-16 w-auto object-contain"
-              width={112}
-              height={64}
+              className="h-20 w-auto object-contain"
+              width={140}
+              height={80}
               loading="lazy"
               referrerPolicy="no-referrer"
             />
@@ -64,7 +62,7 @@ export default function Header({ onNavigate }: HeaderProps) {
         </div>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center space-x-8">
+        <nav className="hidden md:flex items-center space-x-8 ml-auto">
           {navLinks.map((link) => (
             <a
               key={link.name}
@@ -75,32 +73,15 @@ export default function Header({ onNavigate }: HeaderProps) {
               {link.name}
             </a>
           ))}
+          <a
+            href="https://wa.me/5543996550891?text=Quero%20meu%20site!"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-[#1A6A07] hover:bg-[#145205] text-white px-4 py-2 rounded-full text-sm font-medium transition-all"
+          >
+            QUERO MEU SITE
+          </a>
         </nav>
-
-        {/* Social Icons */}
-        <div className="hidden md:flex items-center space-x-4">
-          <a
-            href="https://www.instagram.com/marketspireoficial/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white/80 hover:text-primary transition-colors"
-          >
-            <Instagram size={28} />
-          </a>
-          <a
-            href="https://wa.me/5543996550891?text=Quero%20um%20site%20que%20vende%20por%20mim!"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white/80 hover:text-primary transition-colors"
-          >
-            <img
-              src="https://cdn-icons-png.flaticon.com/128/1384/1384023.png"
-              alt="WhatsApp"
-              className="w-7 h-7 object-contain brightness-0 invert"
-              referrerPolicy="no-referrer"
-            />
-          </a>
-        </div>
 
         {/* Mobile Menu Button */}
         <div className="md:hidden flex items-center">
@@ -134,29 +115,7 @@ export default function Header({ onNavigate }: HeaderProps) {
                   {link.name}
                 </a>
               ))}
-              <div className="flex items-center space-x-6 px-3 py-4 border-t border-white/10 mt-4">
-                <a
-                  href="https://www.instagram.com/marketspireoficial/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white/60 hover:text-primary transition-colors"
-                >
-                  <Instagram size={24} />
-                </a>
-                <a
-                  href="https://wa.me/5543996550891?text=Quero%20um%20site%20que%20vende%20por%20mim!"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white/60 hover:text-primary transition-colors"
-                >
-                  <img
-                    src="https://cdn-icons-png.flaticon.com/128/1384/1384023.png"
-                    alt="WhatsApp"
-                    className="w-6 h-6 object-contain brightness-0 invert"
-                    referrerPolicy="no-referrer"
-                  />
-                </a>
-              </div>
+              
             </div>
           </motion.div>
         )}

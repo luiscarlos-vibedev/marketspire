@@ -180,7 +180,7 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
             className="text-3xl sm:text-4xl md:text-5xl font-[900] text-white leading-[1.1] mb-6 font-montserrat uppercase tracking-tight text-left"
           >
-            AUMENTE SUAS VENDAS E ALCANCE MAIS CLIENTES COM UM <span className="text-[#00D1FF]">SITE PROFISSIONAL</span>
+            SEU SITE É MAIS DO QUE BONITO, ELE PRECISA <span style={{ color: '#1A6A07' }}>VENDER DE VERDADE</span>
           </motion.h1>
           
           <motion.p
@@ -189,7 +189,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-white text-lg md:text-xl lg:text-2xl mb-10 text-left max-w-3xl opacity-90 leading-relaxed"
           >
-            Somos especialistas em criar sites personalizados que convertem visitantes em leads e clientes.
+            Eleve seu negócio ao próximo nível. Transformamos negócios locais e digitais em marcas de autoridade com sites que transmitem valor, geram confiança e vendem no automático.
           </motion.p>
 
           <motion.div
