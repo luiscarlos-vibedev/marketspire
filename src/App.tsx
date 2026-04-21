@@ -5,13 +5,13 @@ import Hero from "./components/Hero";
 import Services from "./components/Services";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
-import Benefits from "./components/Benefits";
 import Testimonials from "./components/Testimonials";
 import WhyUs from "./components/WhyUs";
 import FAQ from "./components/FAQ";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import FloatingWhatsApp from "./components/FloatingWhatsApp";
+import PrivacyPolicy from "./components/PrivacyPolicy";
 import Blog from "./components/Blog";
 import BlogPost from "./components/BlogPost";
 import { postsData } from "./data/postsData";
@@ -79,7 +79,6 @@ export default function App() {
                     <Services />
                     <Portfolio />
                     <About />
-                    <Benefits />
                     <Testimonials />
                     <WhyUs />
                     <FAQ />
@@ -89,6 +88,7 @@ export default function App() {
               </main>
               <Footer />
               <FloatingWhatsApp />
+              <PrivacyPolicy />
             </div>
           }
         />

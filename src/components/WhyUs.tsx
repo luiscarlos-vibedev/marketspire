@@ -1,32 +1,35 @@
 import { motion } from "motion/react";
-import { Sparkles, Monitor, Palette, Gauge, MessageCircle } from "lucide-react";
+import { Sparkles, Search, TrendingUp, Shield } from "lucide-react";
 
 const reasons = [
   {
-    title: "Sites Responsivos",
+    title: "Seja encontrado",
     description:
-      "Nossos sites são projetados para oferecer uma experiência de navegação perfeita em qualquer dispositivo, garantindo que seu público tenha acesso fácil e intuitivo ao seu conteúdo.",
-    icon: Monitor,
+      "Sites otimizados para SEO aparecem nas primeiras posições do Google. E 97% das pessoas nunca passam da primeira página.",
+    footer: "97% DAS BUSCAS TERMINAM NA 1ª PÁGINA DO GOOGLE — VOCÊ PRECISA ESTAR LÁ.",
+    icon: Search,
   },
   {
-    title: "Layout Personalizado",
+    title: "Venda mais",
     description:
-      "Criamos sites únicos que refletem a identidade da sua marca, garantindo que seu negócio se destaque no mercado. Tudo isso é pensado nos mínimos detalhes, especialmente para você.",
-    icon: Palette,
+      "Um site estratégico com copy de conversão, CTAs bem posicionados e prova social pode aumentar a geração de leads em 3x sem aumentar o tráfego.",
+    footer: "CLIENTES RELATAM ATÉ 3X MAIS CONTATOS APÓS TROCAR O SITE ANTIGO PELO NOSSO.",
+    icon: TrendingUp,
   },
   {
-    title: "Páginas Rápidas",
+    title: "Credibilidade instantânea",
     description:
-      "Carregamento das páginas de forma rápida para aumentar o número de conversões, através de otimização e servidor cloud de alta performance.",
-    icon: Gauge,
+      "Visitantes levam apenas 0,05 segundos para formar uma opinião sobre um site. Um design profissional e rápido cria confiança antes mesmo de ler uma palavra.",
+    footer: "0,05 SEGUNDOS — É O TEMPO QUE UM VISITANTE LEVA PARA JULGAR SEU SITE.",
+    icon: Shield,
   },
 ];
 
 export default function WhyUs() {
   return (
-    <section className="py-16 bg-[#050029] text-white overflow-hidden">
+    <section className="py-20 bg-[#050029] text-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
+        <div className="text-center mb-16">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -38,7 +41,7 @@ export default function WhyUs() {
           </motion.h2>
           <div className="inline-flex items-center gap-2 text-primary/80 font-medium">
             <Sparkles size={18} />
-            Escolha uma empresa que é especialista no que faz
+            Não são promessas. São os resultados que nossos clientes já experimentaram.
           </div>
         </div>
 
@@ -50,25 +53,24 @@ export default function WhyUs() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className="p-8 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 hover:border-primary/30 transition-all group"
+              className="p-10 rounded-3xl bg-[#0a063b] border border-white/5 flex flex-col items-center text-center group h-full"
             >
-              <div className="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
-                <reason.icon
-                  size={28}
-                  className="text-primary group-hover:text-white transition-colors"
-                />
+              <div className="w-16 h-16 bg-[#120d52] rounded-2xl flex items-center justify-center mb-8">
+                <reason.icon size={32} className="text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-4 font-montserrat">
-                {reason.title}
-              </h3>
-              <p className="text-gray-400 leading-relaxed">
-                {reason.description}
-              </p>
+              <h3 className="text-2xl font-bold mb-6 font-montserrat">{reason.title}</h3>
+              <p className="text-gray-400 text-lg leading-relaxed mb-10 flex-grow">{reason.description}</p>
+              
+              <div className="pt-8 border-t border-white/10 w-full">
+                <p className="text-[#228A09] font-bold text-xs md:text-sm tracking-wider leading-tight">
+                  {reason.footer}
+                </p>
+              </div>
             </motion.div>
           ))}
         </div>
 
-        <div className="mt-16 text-center">
+        <div className="mt-20 text-center">
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
@@ -78,7 +80,7 @@ export default function WhyUs() {
               href="https://wa.me/5543996550891"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 bg-[#228A09] hover:bg-[#1a6a07] text-white px-8 py-4 rounded-full font-bold text-lg transition-all transform hover:scale-105 shadow-lg shadow-green-900/20"
+              className="inline-flex items-center gap-3 bg-[#228A09] hover:bg-[#1a6a07] text-white px-10 py-5 rounded-full font-bold text-lg transition-all transform hover:scale-105 shadow-xl shadow-green-900/40"
             >
               <img
                 src="https://cdn-icons-png.flaticon.com/128/1384/1384023.png"

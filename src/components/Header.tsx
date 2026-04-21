@@ -43,22 +43,20 @@ export default function Header({ onNavigate }: HeaderProps) {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? "bg-[#050029] py-3 shadow-lg" : "bg-transparent py-5"
+      className={`fixed top-0 left-0 w-full z-50 h-20 transition-all duration-300 overflow-hidden ${
+        isScrolled ? "bg-[#050029] shadow-lg" : "bg-transparent"
       }`}
     >
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
-        <div className="flex items-center">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-full">
+        <div className="flex items-center h-full">
           <Link
             to="/"
-            className="flex items-center gap-2"
+            className="flex items-center gap-2 h-full"
           >
             <img
               src="/logo-marketspire.webp"
               alt="MarketSpire Logo"
               className="h-20 w-auto object-contain"
-              width={140}
-              height={80}
               loading="lazy"
               referrerPolicy="no-referrer"
             />
@@ -91,7 +89,7 @@ export default function Header({ onNavigate }: HeaderProps) {
             href="https://wa.me/5543996550891?text=Quero%20meu%20site!"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#1A6A07] hover:bg-[#145205] text-white px-4 py-2 rounded-full text-sm font-medium transition-all"
+            className="bg-[#228A09] hover:bg-[#1a6a07] text-white px-4 py-2 rounded-full text-sm font-medium transition-all"
           >
             QUERO MEU SITE
           </a>

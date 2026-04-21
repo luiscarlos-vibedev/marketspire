@@ -15,32 +15,21 @@ export default function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl font-bold text-white mb-6 font-montserrat">
-              Sobre Nós
-            </h2>
+            <h2 className="text-4xl font-bold text-white mb-6 font-montserrat leading-tight">Quem está por trás dos seus resultados</h2>
             <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium mb-8">
               <Sparkles size={16} />
-              Seu parceiro para uma presença digital de sucesso!
+              Transformando cliques em faturamento real.
             </div>
-
+            
             <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
               <p>
-                Na <span className="text-primary font-bold">MarketSpire</span>{" "}
-                acreditamos que um site é muito mais do que apenas uma página na
-                web. É a porta de entrada para o seu negócio, a primeira
-                impressão que você causa em seus clientes potenciais e a base
-                para construir relacionamentos duradouros.
+                A <span className="text-primary font-bold">Marketspire</span> nasceu porque Henry Thiago percebeu um problema recorrente: pequenos e médios empresários investiam em sites caros que não apareciam no Google, não carregavam rápido no celular e — pior de tudo — não geravam nenhum resultado real.
               </p>
               <p>
-                Com uma equipe experiente e criativa, usamos as últimas
-                tendências em design e desenvolvimento para criar sites
-                personalizados que atendem às suas necessidades e objetivos
-                específicos. Trabalhamos em estreita colaboração com você para
-                entender sua visão e garantir que seu site seja um reflexo fiel
-                de sua marca.
+                Nossa abordagem é diferente desde o início. Antes de criar qualquer página, entendemos o seu negócio, seu público e seus objetivos. Só depois colocamos a mão na massa — porque um site sem estratégia é apenas um custo, não um investimento.
               </p>
               <p className="text-white font-bold">
-                Estamos prontos para ajudá-lo a criar um site que você ame.
+                Cada projeto que entregamos tem o nosso comprometimento total com resultado. Não somos uma fábrica de sites em série. Somos parceiros do seu crescimento.
               </p>
             </div>
           </motion.div>
@@ -54,7 +43,7 @@ export default function About() {
           >
             <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl shadow-primary/10">
               <img
-                src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZXF1aXBlfGVufDB8MXwwfHx8MA%3D%3D"
+                src="https://i.postimg.cc/BZN6gYR7/Design-sem-nome-(1).webp"
                 alt="Equipe MarketSpire"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"

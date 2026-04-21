@@ -48,9 +48,9 @@ const projects = [
     url: "https://amoreljoias.com.br/",
   },
   {
-    title: "Portal UDI",
-    image: "/portfolio/portaludi.webp",
-    url: "https://portaludi.com.br/",
+    title: "Lumiere Estética",
+    image: "/portfolio/Lumiere Estética.webp",
+    url: "https://lumiere-esteticaluxo.vercel.app/",
   },
   {
     title: "Dra Larissa Tavares",

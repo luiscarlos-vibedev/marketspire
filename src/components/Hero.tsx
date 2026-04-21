@@ -180,7 +180,7 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
             className="text-3xl sm:text-4xl md:text-5xl font-[900] text-white leading-[1.1] mb-6 font-montserrat uppercase tracking-tight text-left"
           >
-            SEU SITE É MAIS DO QUE BONITO, ELE PRECISA <span style={{ color: '#1A6A07' }}>VENDER DE VERDADE</span>
+            SEU SITE É MAIS DO QUE BONITO, ELE PRECISA <span style={{ color: '#228A09' }}>VENDER DE VERDADE</span>
           </motion.h1>
           
           <motion.p

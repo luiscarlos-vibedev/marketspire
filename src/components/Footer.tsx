@@ -4,55 +4,87 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-[#050029] text-white py-12 border-t border-white/10">
+    <footer className="bg-[#050029] border-t border-white/10 pt-20 pb-10 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
-          <div className="col-span-1 md:col-span-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+          {/* Logo & Description */}
+          <div className="space-y-6">
             <img 
               src="/logo-marketspire.webp" 
               alt="Marketspire" 
-              className="h-16 w-auto mb-4" 
+              className="h-16 w-auto" 
               loading="lazy"
             />
-            <p className="text-gray-400 mb-6 max-w-sm">
+            <p className="text-gray-400 leading-relaxed">
               Especialistas em criação de sites, E-commerces e Landing Pages de alta performance. Transformamos visitantes em clientes.
             </p>
             <div className="flex gap-4">
-              <a href="https://www.instagram.com/marketspireoficial/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-primary transition-colors text-gray-300 hover:text-white" aria-label="Instagram">
-                <Instagram size={20} />
+              <a href="https://www.instagram.com/marketspireoficial/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-primary transition-all group">
+                <Instagram size={20} className="group-hover:scale-110 transition-transform" />
               </a>
-              <a href="https://wa.me/5543996550891" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-[#25d366] transition-colors text-gray-300 hover:text-white" aria-label="WhatsApp">
-                <Phone size={20} />
+              <a href="https://wa.me/5543996550891" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-[#228A09] transition-all group">
+                <img 
+                  src="https://cdn-icons-png.flaticon.com/128/1384/1384023.png" 
+                  alt="WhatsApp" 
+                  className="w-5 h-5 object-contain brightness-0 invert" 
+                  referrerPolicy="no-referrer" 
+                />
               </a>
-              <a href="mailto:contato@marketspire.com.br" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-primary transition-colors text-gray-300 hover:text-white" aria-label="Email">
-                <Mail size={20} />
+              <a href="mailto:contato@marketspire.com.br" className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-primary transition-all group">
+                <Mail size={20} className="group-hover:scale-110 transition-transform" />
               </a>
             </div>
           </div>
-          
-          <div>
-            <h4 className="text-lg font-semibold font-montserrat mb-4">Serviços</h4>
-            <ul className="space-y-2 text-gray-400">
+
+          {/* Contato */}
+          <div className="space-y-6">
+            <h3 className="text-lg font-bold font-montserrat uppercase tracking-wider">Contato</h3>
+            <ul className="space-y-4 text-gray-400">
+              <li className="flex items-center gap-3">
+                <img 
+                  src="https://cdn-icons-png.flaticon.com/128/1384/1384023.png" 
+                  alt="WhatsApp" 
+                  className="w-[18px] h-[18px] object-contain brightness-0 invert opacity-70" 
+                  referrerPolicy="no-referrer" 
+                />
+                <span>(43) 9 9655-0891</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <Phone size={18} className="text-primary" />
+                <span>(43) 9 9655-0891</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <Mail size={18} className="text-primary" />
+                <span>contato@marketspire.com.br</span>
+              </li>
+            </ul>
+          </div>
+
+          {/* Serviços */}
+          <div className="space-y-6">
+            <h3 className="text-lg font-bold font-montserrat uppercase tracking-wider">Serviços</h3>
+            <ul className="space-y-4 text-gray-400">
               <li><a href="#solucoes" className="hover:text-primary transition-colors">Site Institucional</a></li>
               <li><a href="#solucoes" className="hover:text-primary transition-colors">Loja Virtual</a></li>
               <li><a href="#solucoes" className="hover:text-primary transition-colors">Landing Pages</a></li>
               <li><a href="#solucoes" className="hover:text-primary transition-colors">Automações</a></li>
             </ul>
           </div>
-          
-          <div>
-            <h4 className="text-lg font-semibold font-montserrat mb-4">Legal</h4>
-            <ul className="space-y-2 text-gray-400">
+
+          {/* Política de Privacidade */}
+          <div className="space-y-6">
+            <h3 className="text-lg font-bold font-montserrat uppercase tracking-wider">Legal</h3>
+            <ul className="space-y-4 text-gray-400">
               <li>
-                <button type="button" onClick={() => (window as any).openPrivacyPolicy?.()} className="hover:text-primary transition-colors cursor-pointer">
+                <button type="button" onClick={() => (window as any).openPrivacyPolicy?.()} className="hover:text-primary transition-colors cursor-pointer text-left">
                   Política de Privacidade
                 </button>
               </li>
             </ul>
           </div>
         </div>
-        
-        <div className="pt-8 border-t border-white/10 text-center text-gray-500 text-sm">
+
+        <div className="pt-10 border-t border-white/10 text-center text-sm text-gray-500">
           <p>© {currentYear} Marketspire. Todos os direitos reservados.</p>
         </div>
       </div>
