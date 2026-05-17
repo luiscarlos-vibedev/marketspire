@@ -6,9 +6,9 @@ export default function Footer() {
   return (
     <footer className="bg-[#050029] border-t border-white/10 pt-20 pb-10 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16 text-center md:text-left">
           {/* Logo & Description */}
-          <div className="space-y-6">
+          <div className="space-y-6 flex flex-col items-center md:items-start">
             <img 
               src="/logo-marketspire.webp" 
               alt="Marketspire" 
@@ -37,7 +37,7 @@ export default function Footer() {
           </div>
 
           {/* Contato */}
-          <div className="space-y-6">
+          <div className="space-y-6 flex flex-col items-center md:items-start">
             <h3 className="text-lg font-bold font-montserrat uppercase tracking-wider">Contato</h3>
             <ul className="space-y-4 text-gray-400">
               <li className="flex items-center gap-3">
@@ -61,7 +61,7 @@ export default function Footer() {
           </div>
 
           {/* Serviços */}
-          <div className="space-y-6">
+          <div className="space-y-6 flex flex-col items-center md:items-start">
             <h3 className="text-lg font-bold font-montserrat uppercase tracking-wider">Serviços</h3>
             <ul className="space-y-4 text-gray-400">
               <li><a href="#solucoes" className="hover:text-primary transition-colors">Site Institucional</a></li>
@@ -72,7 +72,7 @@ export default function Footer() {
           </div>
 
           {/* Política de Privacidade */}
-          <div className="space-y-6">
+          <div className="space-y-6 flex flex-col items-center md:items-start">
             <h3 className="text-lg font-bold font-montserrat uppercase tracking-wider">Legal</h3>
             <ul className="space-y-4 text-gray-400">
               <li>

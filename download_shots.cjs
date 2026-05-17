@@ -3,18 +3,13 @@ const https = require('https');
 const path = require('path');
 
 const projects = [
-  { name: "morgananutri", url: "https://morgananutri.com/" },
   { name: "anastasiaestetica", url: "https://anastasiaestetica.com.br/" },
   { name: "trafegosupremo", url: "https://trafegosupremo.com.br/" },
-  { name: "tecudi", url: "https://tecudi.com/" },
-  { name: "heliopsi", url: "http://heliopsi.com/" },
   { name: "modasglow", url: "http://modasglow.com/" },
   { name: "cursonailpro", url: "https://cursonailpro.com.br/" },
   { name: "zeusadvogados", url: "https://zeusadvogados.com.br/" },
   { name: "amoreljoias", url: "https://amoreljoias.com.br/" },
-  { name: "lemonshopp", url: "https://lemonshopp.com/" },
   { name: "portaludi", url: "https://portaludi.com.br/" },
-  { name: "kydelicia", url: "https://kydelicia.com.br/" },
 ];
 
 const destDir = path.join(__dirname, 'public', 'portfolio');

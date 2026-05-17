@@ -26,13 +26,13 @@ export default function Contact() {
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="space-y-12"
+            className="space-y-12 text-center lg:text-left"
           >
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-8 font-montserrat leading-tight uppercase">
                 PRONTO PARA TER UM <br /> SITE QUE REALMENTE <br /> VENDE?
               </h2>
-              <p className="text-xl text-gray-300 leading-relaxed max-w-lg">
+              <p className="text-gray-300 leading-relaxed max-w-lg mx-auto lg:mx-0">
                 Dê o próximo passo agora. Nossa equipe entra em contato em até 2 horas durante o horário comercial.
               </p>
             </div>
@@ -43,7 +43,7 @@ export default function Contact() {
                   <Gauge size={24} />
                   <h3 className="font-bold text-lg uppercase tracking-wider">ATENDIMENTO ÁGIL</h3>
                 </div>
-                <p className="text-xs md:text-sm font-bold text-gray-400 tracking-wide leading-relaxed uppercase">
+                <p className="text-sm md:text-sm font-bold text-gray-400 tracking-wide leading-relaxed uppercase">
                   ⚡ ATENDEMOS NO MÁXIMO 6 PROJETOS SIMULTÂNEOS PARA GARANTIR QUALIDADE TOTAL. VERIFIQUE A DISPONIBILIDADE DE VAGAS ANTES DE SOLICITAR.
                 </p>
               </div>

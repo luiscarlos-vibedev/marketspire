@@ -2,30 +2,40 @@ import { motion } from "motion/react";
 import { Sparkles, ExternalLink, MessageCircle } from "lucide-react";
 
 const projects = [
-{
-    title: "Morgana Nutri",
-    image: "/portfolio/morgananutri.webp",
-    url: "https://morgananutri.com/",
+  {
+    title: "Dra Larissa Tavares",
+    image: "/portfolio/dralarissa.webp",
+    url: "https://sitedralarissa.vercel.app/",
+  },
+  {
+    title: "Lumiere Estética",
+    image: "/portfolio/Lumiere Estética.webp",
+    url: "https://lumiere-esteticaluxo.vercel.app/",
   },
   {
     title: "Anastasia Estética",
     image: "/portfolio/anastasiaestetica.webp",
     url: "https://anastasiaestetica.com.br/",
   },
-{
+  {
+    title: "Aura Odonto",
+    image: "/portfolio/AURA ODONTOLOGIA.webp",
+    url: "https://clinica-odontologia-estetica.vercel.app/",
+  },
+  {
+    title: "Spire Odonto",
+    image: "/portfolio/SPIRE ODONTOLOGIA.webp",
+    url: "https://spire-odontologia.vercel.app/",
+  },
+  {
+    title: "Priscilla Fonollosa",
+    image: "/portfolio/DRA PRISCILLA (1).webp",
+    url: "https://priscila-odonto.vercel.app/",
+  },
+  {
     title: "Sanys Pet",
     image: "/portfolio/sanyspet.webp",
     url: "https://sanyspet.com.br/",
-  },
-  {
-    title: "Tecudi",
-    image: "/portfolio/tecudi.webp",
-    url: "https://tecudi.com/",
-  },
-  {
-    title: "Helio Psi",
-    image: "/portfolio/heliopsi.webp",
-    url: "http://heliopsi.com/",
   },
   {
     title: "Modas Glow",
@@ -46,36 +56,6 @@ const projects = [
     title: "Amorel Joias",
     image: "/portfolio/amoreljoias.webp",
     url: "https://amoreljoias.com.br/",
-  },
-  {
-    title: "Lumiere Estética",
-    image: "/portfolio/Lumiere Estética.webp",
-    url: "https://lumiere-esteticaluxo.vercel.app/",
-  },
-  {
-    title: "Dra Larissa Tavares",
-    image: "/portfolio/dralarissa.webp",
-    url: "https://sitedralarissa.vercel.app/",
-  },
-  {
-    title: "Fina Estampa Fashion",
-    image: "/portfolio/finaestampafashion.webp",
-    url: "https://finaestampafashion.com/",
-  },
-  {
-    title: "Aura Odonto",
-    image: "/portfolio/AURA ODONTOLOGIA.webp",
-    url: "https://clinica-odontologia-estetica.vercel.app/",
-  },
-  {
-    title: "Spire Odonto",
-    image: "/portfolio/SPIRE ODONTOLOGIA.webp",
-    url: "https://spire-odontologia.vercel.app/",
-  },
-  {
-    title: "Priscilla Fonollosa",
-    image: "/portfolio/DRA PRISCILLA (1).webp",
-    url: "https://priscila-odonto.vercel.app/",
   },
 ];
 

@@ -173,12 +173,12 @@ export default function Hero() {
 
       {/* 3. Conteúdo Principal */}
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="flex flex-col items-start text-left max-w-2xl">
+        <div className="flex flex-col items-center md:items-start text-center md:text-left max-w-2xl">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-3xl sm:text-4xl md:text-5xl font-[900] text-white leading-[1.1] mb-6 font-montserrat uppercase tracking-tight text-left"
+            className="text-3xl sm:text-4xl md:text-5xl font-[900] text-white leading-[1.1] mb-6 font-montserrat uppercase tracking-tight"
           >
             SEU SITE É MAIS DO QUE BONITO, ELE PRECISA <span style={{ color: '#228A09' }}>VENDER DE VERDADE</span>
           </motion.h1>
@@ -187,7 +187,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-white text-lg md:text-xl lg:text-2xl mb-10 text-left max-w-3xl opacity-90 leading-relaxed"
+            className="text-white text-lg md:text-xl lg:text-2xl mb-10 max-w-3xl opacity-90 leading-relaxed"
           >
             Eleve seu negócio ao próximo nível. Transformamos negócios locais e digitais em marcas de autoridade com sites que transmitem valor, geram confiança e vendem no automático.
           </motion.p>
@@ -196,6 +196,7 @@ export default function Hero() {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.4 }}
+            className="w-full flex justify-center md:justify-start"
           >
             <a
               href="https://wa.me/5543996550891?text=Quero%20um%20site%20que%20vende%20por%20mim!"

@@ -14,6 +14,7 @@ export default function About() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
+            className="text-center lg:text-left"
           >
             <h2 className="text-4xl font-bold text-white mb-6 font-montserrat leading-tight">Quem está por trás dos seus resultados</h2>
             <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium mb-8">
