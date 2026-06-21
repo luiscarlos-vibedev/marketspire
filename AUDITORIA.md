@@ -13,7 +13,7 @@ Todas as 8 fases de intervenção de segurança, LGPD, Acessibilidade, Performan
 ## 3. SEO Aplicado
 - Definição do link `<link rel="canonical" href="https://marketspire.com.br/" />`.
 - Definição correta do Locale e Geo Tags orientáveis para o Sul (PR/Curitiba).
-- Inserção integral da estrutura **Schema.org** em formato `JSON-LD` contendo referências encadeadas a `LocalBusiness`, `Organization`, `WebSite` e `Person` (Henry Thiago).
+- Inserção integral da estrutura **Schema.org** em formato `JSON-LD` contendo referências encadeadas a `LocalBusiness`, `Organization`, `WebSite` e `Person` (Luis Carlos).
 - Criação e inclusão do `sitemap.xml` apontando para o URL canônico.
 - Instalação oficial do arquivo de regras diretivas de Crawler `robots.txt` orientando bots de permissão total para a home protegendo `/api/`.
 - Ícones de Favicon associados programaticamente no Header.
