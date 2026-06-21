@@ -27,7 +27,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   try {
     const data = await resend.emails.send({
       from: 'Marketspire <onboarding@resend.dev>', // Pode requerer verificação de DNS no painel do Resend
-      to: ['luiscarlosdossantos883@gmail.com'], // O email fornecido para recebimento
+      to: ['thiagooliveiradisgn@gmail.com'], // O email fornecido para recebimento
       subject: `Novo Lead: ${sanitize(name)} (${sanitize(service)})`,
       html: `
         <h2>Novo contato pelo site!</h2>

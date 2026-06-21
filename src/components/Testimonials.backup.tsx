@@ -10,7 +10,7 @@ const reviews = [
   },
   {
     name: "Marcelo Hayeck",
-    text: "Luis é um ótimo profissional e impecável na execução do trabalho! Recomendo!",
+    text: "Henry é um ótimo profissional e impecável na execução do trabalho! Recomendo!",
     rating: 5,
     image: "/portfolio/Marcelo Hayeck.webp",
   },

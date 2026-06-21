@@ -24,7 +24,7 @@ export default function About() {
             
             <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
               <p>
-                A <span className="text-primary font-bold">Marketspire</span> nasceu porque o Luis Carlos percebeu uma frustração muito comum no mercado: pequenos e médios empresários investiam valores altos em sites que pareciam bonitos, mas que não apareciam nas buscas do Google, demoravam para carregar no celular e não traziam clientes de verdade.
+                A <span className="text-primary font-bold">Marketspire</span> nasceu porque o Henry Thiago percebeu uma frustração muito comum no mercado: pequenos e médios empresários investiam valores altos em sites que pareciam bonitos, mas que não apareciam nas buscas do Google, demoravam para carregar no celular e não traziam clientes de verdade.
               </p>
               <p>
                 Por isso, nossa forma de trabalhar é diferente desde o primeiro contato. Antes de criar qualquer página, estudamos o seu negócio, entendemos quem é o seu público e traçamos seus objetivos reais. Só depois começamos a construir, pois sabemos que um site sem estratégia é apenas um custo, e não um investimento.

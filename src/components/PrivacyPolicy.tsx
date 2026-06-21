@@ -43,7 +43,7 @@ export default function PrivacyPolicy() {
           <p>Você tem o direito de solicitar o acesso, retificação, portabilidade ou a eliminação dos seus dados a qualquer momento.</p>
 
           <h3 className="text-lg font-bold text-[#050029]">6. Como exercer os direitos (Contato DPO)</h3>
-          <p>Para interagir conosco sobre a privacidade de seus dados, envie um e-mail para: <strong>luiscarlosdossantos883@gmail.com</strong>.</p>
+          <p>Para interagir conosco sobre a privacidade de seus dados, envie um e-mail para: <strong>thiagooliveiradisgn@gmail.com</strong>.</p>
         </div>
 
         <div className="p-6 border-t bg-gray-50 flex justify-end">
