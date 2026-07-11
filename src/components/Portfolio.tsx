@@ -69,7 +69,7 @@ const projects = [
   },
   {
     title: "Loja Duas Irmãs",
-    image: "/portfolio/loja-duas-irmas.jpg",
+    image: "/portfolio/loja-duas-irmas.webp",
     url: "https://loja-duas-irmas.vercel.app/",
   },
   {
