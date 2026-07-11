@@ -67,6 +67,16 @@ const projects = [
     image: "/portfolio/orion-clinica.webp",
     url: "https://orion-clinica.netlify.app/",
   },
+  {
+    title: "Loja Duas Irmãs",
+    image: "/portfolio/loja-duas-irmas.jpg",
+    url: "https://loja-duas-irmas.vercel.app/",
+  },
+  {
+    title: "Sua Agenda Lotada",
+    image: "/portfolio/sua-agenda-lotada.jpg",
+    url: "https://sua-agenda-lotada.vercel.app/",
+  },
 ];
 
 export default function Portfolio() {

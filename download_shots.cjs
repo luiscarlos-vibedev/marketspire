@@ -10,6 +10,8 @@ const projects = [
   { name: "zeusadvogados", url: "https://zeusadvogados.com.br/" },
   { name: "amoreljoias", url: "https://amoreljoias.com.br/" },
   { name: "portaludi", url: "https://portaludi.com.br/" },
+  { name: "loja-duas-irmas", url: "https://loja-duas-irmas.vercel.app/" },
+  { name: "sua-agenda-lotada", url: "https://sua-agenda-lotada.vercel.app/" },
 ];
 
 const destDir = path.join(__dirname, 'public', 'portfolio');
