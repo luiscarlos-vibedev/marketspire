@@ -68,14 +68,14 @@ const projects = [
     url: "https://orion-clinica.netlify.app/",
   },
   {
-    title: "Loja Duas Irmãs",
-    image: "/portfolio/loja-duas-irmas.webp",
-    url: "https://loja-duas-irmas.vercel.app/",
-  },
-  {
     title: "Sua Agenda Lotada",
     image: "/portfolio/sua-agenda-lotada.jpg",
     url: "https://sua-agenda-lotada.vercel.app/",
+  },
+  {
+    title: "Loja Duas Irmãs",
+    image: "/portfolio/loja-duas-irmas.png",
+    url: "https://loja-duas-irmass.vercel.app/",
   },
 ];
 
