@@ -77,6 +77,11 @@ const projects = [
     image: "/portfolio/loja-duas-irmas.png",
     url: "https://loja-duas-irmass.vercel.app/",
   },
+  {
+    title: "Floricultura Coroas",
+    image: "/portfolio/floricultura-coroas.jpg",
+    url: "https://floricultura-coroass.vercel.app/",
+  },
 ];
 
 export default function Portfolio() {

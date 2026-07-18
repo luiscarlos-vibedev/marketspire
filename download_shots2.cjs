@@ -11,6 +11,7 @@ const projects = [
   { name: "portaludi", url: "https://portaludi.com.br/" },
   { name: "sua-agenda-lotada", url: "https://sua-agenda-lotada.vercel.app/" },
   { name: "loja-duas-irmas", url: "https://loja-duas-irmass.vercel.app/" },
+  { name: "floricultura-coroas", url: "https://floricultura-coroass.vercel.app/" },
 ];
 
 const destDir = path.join(__dirname, 'public', 'portfolio');
