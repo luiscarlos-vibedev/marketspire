@@ -79,7 +79,7 @@ const projects = [
   },
   {
     title: "Floricultura Coroas",
-    image: "/portfolio/floricultura-coroas.jpg",
+    image: "/portfolio/floricultura-coroas-v2.jpg",
     url: "https://floricultura-coroass.vercel.app/",
   },
 ];
